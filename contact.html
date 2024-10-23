@@ -205,7 +205,7 @@
             ></iframe>
           </div>
           <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-            <form>
+            <form action="https://formspree.io/f/movqvkzb" method="POST">
               <div class="row g-3">
                 <div class="col-md-6">
                   <div class="form-floating">
@@ -213,6 +213,7 @@
                       type="text"
                       class="form-control"
                       id="name"
+                      name="name"
                       placeholder="Your Name"
                     />
                     <label for="name">Votre Nom</label>
@@ -224,6 +225,7 @@
                       type="email"
                       class="form-control"
                       id="email"
+                      name="email"
                       placeholder="Your Email"
                     />
                     <label for="email">Votre Email</label>
@@ -232,9 +234,10 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input
-                      type="text"
+                      type="tel"
                       class="form-control"
                       id="subject"
+                      name="tel"
                       placeholder="Subject"
                     />
                     <label for="subject">Téléphone</label>
@@ -246,6 +249,7 @@
                       class="form-control"
                       placeholder="Leave a message here"
                       id="message"
+                      name="message"
                       style="height: 150px"
                     ></textarea>
                     <label for="message">Message</label>
